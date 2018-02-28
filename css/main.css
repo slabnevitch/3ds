@@ -2784,8 +2784,6 @@ header {
         margin-bottom: 10px; }
         nav.with-cab .menu .menu__item:nth-child(3) {
           margin-right: 0; }
-  .header-inner nav.with-cab {
-    margin-top: 0; }
   .course--new {
     padding-bottom: 200px; }
   .course-item__buttons {
@@ -2794,6 +2792,10 @@ header {
       margin-bottom: 10px; }
   .course-item__img {
     width: 37%; } }
+
+@media only screen and (max-width: 1199px) {
+  .header-inner nav.with-cab {
+    margin-top: 0; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
